@@ -7,9 +7,7 @@ import Footer from "../components/Footer";
 function App() {
   const username = "Tanapat Hedegaard"
   let tasks = [
-    {id:1, title: "Read a book",description:"Vite + React + Bootstrap + TS",isDone: false},
-    {id:2, title: "Write code",description:"Finish project for class",isDone: false},
-    {id:3, title: "Deploy app",description:"Push project to GitHub Pages",isDone: false},
+    {id:1, title: "Read a book",description:"Vite + React + Bootstrap + TS",isDone: false}
   ];
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
